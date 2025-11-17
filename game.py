@@ -16,12 +16,46 @@ if __name__ == '__main__':
     # any buffs / debuffs?
     # any critical success / failure?
 
-    name = input('Name: ')
-    role = input('Role: ')
+  
+    print_dramatic_text('Welcome to my trivia game!')
+    answer = input('Question 1: What is the largest animal on earth?')
+    if answer == 'Whale':
+        print('Correct good job!')
+        score += 1
+    else: 
+        print ('Sorry... that is wrong.')
 
-    print('Your name is ' + name + ' and your role is ' + role + '.')
-    print_dramatic_text('Our adventure begins in a shady tavern ...')
+    answer = input('Question 2: What is the tallest mountain in the world?')
+    if answer == 'Mount Everest':
+        print ('Correct... great thinking!')
+        score +=3 
+    else: 
+        print ('Sorry that is wrong.. maybe next time.')
 
-    input('Press Enter to roll a d20.')
-    roll = random.randint(1, 20)
-    draw_d20(roll)
+    answer = input('Question 3: Which element has the chemical symbol 'O'?')
+    if answer == 'Oxygen':
+        print ('Correct... On to the next!')
+        score += 1
+    else: 
+        print ('Sorry... thats incorecct')
+
+    answer = input('Question 4: In which year did the titantic sink?')
+    if answer == '1912':
+        print ('Correct... your smart!')
+        score += 3
+    else:
+        print ('Sorry... try again')
+
+    answer = input('Question 5: Who wrote the play "Romeo and Juilet"?')
+    if answer == 'William Shakespeare':
+        print ('Correct.. =. great thinking!')
+        score += 3 
+    else:
+        print ('Sorry... that is incorrect')
+        
+
+
+
+
+    
+      
