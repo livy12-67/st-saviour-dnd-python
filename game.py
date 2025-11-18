@@ -52,8 +52,22 @@ if __name__ == '__main__':
         score += 3 
     else:
         print ('Sorry... that is incorrect')
-        
 
+    answer = input ('Question 6: ')
+    if answer == '':
+        print ('Correct... good job!')
+        score += 2 
+    else: 
+        print ('Sorry... maybe next time.')
+
+    answer = input ('Question 7: ')
+    if answer == '':
+        print ('Correct... good job!')
+        score += 4 
+    else:
+        print ('Sorry.. not this time')
+
+    
 
 
 
