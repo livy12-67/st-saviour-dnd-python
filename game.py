@@ -18,8 +18,7 @@ if __name__ == '__main__':
 
   
     print_dramatic_text('Welcome to my trivia game!') 
-    input = ('Name:'):
-
+    answer = input('Name:')
 
     answer = input('Question 1: What is the largest animal on earth?')
     if answer == 'Whale':
