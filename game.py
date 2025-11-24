@@ -17,7 +17,10 @@ if __name__ == '__main__':
     # any critical success / failure?
 
   
-    print_dramatic_text('Welcome to my trivia game!')
+    print_dramatic_text('Welcome to my trivia game!') 
+    print_dramatic_text ('Name:')
+
+    
     answer = input('Question 1: What is the largest animal on earth?')
     if answer == 'Whale':
         print('Correct good job!')
