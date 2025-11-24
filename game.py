@@ -23,7 +23,7 @@ if __name__ == '__main__':
     answer = input('Question 1: What is the largest animal on earth?')
     if answer == 'Whale':
         print('Correct good job!')
-        score += 2
+        score += 2 # type: ignore
     else: 
         print ('Sorry... that is wrong.')
 
