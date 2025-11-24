@@ -63,14 +63,14 @@ if __name__ == '__main__':
         print ('Sorry... maybe next time.')
 
     answer = input ('Question 7: What planet is known as the Red Planet?')
-    if answer == ' Mars ':
+    if answer == ' Mars':
         print ('Correct... good job!')
         score += 4 
     else:
         print ('Sorry.. not this time')
 
     answer = input ('Question 8: Which planet is closest to the Sun?')
-    if answer == ' Mercury ': 
+    if answer == ' Mercury': 
         print ( 'Correct... your smart!')
         score += 3
     else: 
