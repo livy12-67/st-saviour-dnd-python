@@ -23,14 +23,14 @@ if __name__ == '__main__':
     answer = input('Question 1: What is the largest animal on earth?')
     if answer == 'Whale':
         print('Correct good job!')
-        score += 1
+        score += 2
     else: 
         print ('Sorry... that is wrong.')
 
     answer = input('Question 2: What is the tallest mountain in the world?')
     if answer == 'Mount Everest':
         print ('Correct... great thinking!')
-        score +=3 
+        score += 3 
     else: 
         print ('Sorry that is wrong.. maybe next time.')
 
