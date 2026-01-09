@@ -20,10 +20,12 @@ if __name__ == '__main__':
     print_dramatic_text('Welcome to my trivia game!') 
     answer = input('Name:')
 
+    score = 0
+
     answer = input('Question 1: What is the largest animal on earth?')
     if answer == 'Whale':
         print('Correct good job!')
-        score+=2
+        score += 2
     else: 
         print ('Sorry... that is wrong.')
 
